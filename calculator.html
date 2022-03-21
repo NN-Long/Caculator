@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div>
+        <table>
+            <thead>
+                <td colspan="4" class="screen">
+                    <input type="text" value="0" id="screen">
+                </td>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="any">
+                        <input type="button" value="C" id="reset">
+                    </td>
+                    <td class="any reverse">
+                        <input type="button" value="+/-">
+                    </td>
+                    <td class="any">
+                        <input type="button" value="%" class="percent">
+                    </td>
+                    <td class="operator">
+                        <input type="button" value="/" class="div">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="number">
+                        <input type="button" value="7">
+                    </td>
+                    <td class="number">
+                        <input type="button" value="8">
+                    </td>
+                    <td class="number">
+                        <input type="button" value="9">
+                    </td>
+                    <td class="operator">
+                        <input type="button" value="X" class="multip">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="number">
+                        <input type="button" value="4">
+                    </td>
+                    <td class="number">
+                        <input type="button" value="5">
+                    </td>
+                    <td class="number">
+                        <input type="button" value="6">
+                    </td>
+                    <td class="operator">
+                        <input type="button" value="-" class="sub">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="number">
+                        <input type="button" value="1">
+                    </td>
+                    <td class="number">
+                        <input type="button" value="2">
+                    </td>
+                    <td class="number">
+                        <input type="button" value="3">
+                    </td>
+                    <td class="operator">
+                        <input type="button" value="+" class="sum">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="number">
+                        <input type="button" value="0" id="button_0">
+                    </td>
+                    <td class="number">
+                        <input type="button" value="." id="dot">
+                    </td>
+                    <td class="output">
+                        <input type="button" value="=">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script type="text/javascript" src="calculator.js">	</script>
+</body>
+
+</html>

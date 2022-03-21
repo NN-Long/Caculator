@@ -1,0 +1,36 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+input[type=button] {
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+    font-size: 30px;
+}
+input[type=text] {
+    width: 360px;
+    height: 100px;
+}
+table{
+    margin: 0 auto;
+    border: solid 1px;
+}
+#button_0{
+    width: 175px;
+}
+.operator input, .output input{
+    background-color: rgb(236, 153, 29);
+}
+.number input {
+    background-color: darkgray;
+}
+.any input{
+    background-color: gray;
+}
+.screen input{
+    background-color: rgb(41, 38, 38);
+    color: azure;
+    font-size: 55px;
+    text-align: right;
+}
